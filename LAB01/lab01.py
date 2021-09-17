@@ -164,6 +164,7 @@ def task7():
     task_7.close()
     archivo.close()
 
+# > Volver a preprocesar el archivo cambiando cada carácter según UNICODE-8230
 def task8():
     archivo = open('HERALDOSNEGROS_pre.txt','r')#,encoding='utf-8')
     task_8 = open('task8.txt','a',encoding='utf-8')
@@ -172,6 +173,9 @@ def task8():
     task_8.close()
     archivo.close()
 
+# > Volver a preprocesar el archivo insertando la cadena AQUÍ cada 20 caracteres, el texto resultante
+# deberá contener un número de caracteres que sea múltiplo de 4, si es necesario rellenar al final con
+# caracteres X según se necesite
 def task9():
     archivo = open('HERALDOSNEGROS_pre.txt','r')#,encoding='utf-8')
     task_9 = open('task9.txt','a',encoding='utf-8')
@@ -185,6 +189,7 @@ def task9():
             k += 1
     task_9.close()
     archivo.close()
+
 #---------------------------------------------------
 #---------------------main()------------------------
 #---------------------------------------------------
